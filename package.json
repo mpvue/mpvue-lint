@@ -1,6 +1,6 @@
 {
   "name": "@waimai/mpvue-lint",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "检测h5版本的vue组件是否符合mpvue语法规则 ",
   "main": "mpvue-lint.js",
   "scripts": {
@@ -10,5 +10,9 @@
     "mpvue-lint"
   ],
   "author": "yanghuanyu",
-  "license": "ISC"
+  "license": "ISC" ,
+  "dependencies": {
+  "babylon": "^6.18.0",
+  "vue-template-compiler": "^2.5.16"
+  }
 }
