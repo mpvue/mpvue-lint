@@ -1,6 +1,6 @@
 {
   "name": "mpvue-lint",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "检测h5版本的vue组件是否符合mpvue语法规则 ",
   "main": "mpvue-lint.js",
   "scripts": {
