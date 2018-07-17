@@ -23,7 +23,7 @@ debug时跟踪数据变动的模块
 # 用法
 在mpvue/你的工作目录/你的页面目录/main.js中加入如下引用
 ```javascript
-const mpvueTrace = require('@waimai/mpvue-lint/mpvue-trace')
+const mpvueTrace = require('mpvue-lint/mpvue-trace')
 mpvueTrace.trace(Vue); //Vue是当前页面中的Vue实例
 ```
 调试mpvue页面时，如果触发了数据更新，console控制台会输出这次操作500ms内引发的所有数据更新的大小，
