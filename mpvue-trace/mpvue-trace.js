@@ -41,10 +41,10 @@ function trace(Vue){
         return res
     }
 
-    let fun = Vue.prototype.$updateDataToMP;
+    var fun = Vue.prototype.$updateDataToMP;
 
-    let timer = 0; //计时器
-    let updateDataTotal = 0; //总共更新的数据量
+    var timer = 0; //计时器
+    var updateDataTotal = 0; //总共更新的数据量
 
     Vue.prototype.$updateDataToMP = function(){
         var data = formatVmData(this);
