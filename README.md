@@ -1,9 +1,11 @@
 # mpvue-lint
-#美团内部使用方法 mnpm install @waimai/mpvue-lint
+#模块功能
+检测h5版本的vue组件是否符合mpvue语法规则
+#美团内部使用方法 npm install mpvue-lint
 构建流中调用，传入entry(array) ,
 要检查的入口Vue文件 
 ```javascript
-const mpvueLint = require('@waimai/mpvue-lint') 
+const mpvueLint = require('mpvue-lint')
 mpvueLint.build(
 { 
 	entry:
